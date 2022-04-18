@@ -10,7 +10,7 @@ function Footer(){
                 <h4>{ProjectHost} is a AleHot Projekt </h4>
                 <h4> Developed in <a href={"/wellcome"}>Laravel</a> e React </h4>
                 <h4> Maded by 123alehot.net.br</h4>
-                <h4> Hosted by Hostgator  </h4>
+                <h4> Hosted by Vercel  </h4>
             </div>
         </FooterStyles>
     )
