@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from "react";
 export const LoginStatunsContext = createContext();
 export default function LoginStatunsProvider({children}){
-    const[LoginStatuns, setLoginStatuns]= useState(1);
+    const[LoginStatuns, setLoginStatuns]= useState(0);
     return <LoginStatunsContext.Provider value={{LoginStatuns,setLoginStatuns}}>{children}</LoginStatunsContext.Provider>
 }
 export function useLoginStatuns(){
