@@ -1,6 +1,6 @@
 function detecthost(){
-    const str =window.location.hostname
-    //const str = "Imersive.Space"
+    //const str =window.location.hostname
+    const str = "Ambientalizando.Sonhos"
     return str
 }
 function ortography(str){
