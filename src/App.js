@@ -11,6 +11,7 @@ function App() {
           <Menu/>
           <Room/>
           <ControlersApp />
+          <Footer />
         </div>
       </div>
   );
